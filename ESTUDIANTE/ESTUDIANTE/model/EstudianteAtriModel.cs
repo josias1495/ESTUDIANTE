@@ -7,12 +7,12 @@ namespace ESTUDIANTE.model
 {
     public class EstudianteAtriModel : Notificacion
     {
-        private int _IDEstudiante;
+        private int _IDestudiante;
 
         public int IDEstudiante
         {
-            get { return _IDEstudiante; }
-            set { _IDEstudiante = value; OnPropertyChanged(); }
+            get { return _IDestudiante; }
+            set { _IDestudiante = value; OnPropertyChanged(); }
         }
 
         private string _NombreEstudiante;
